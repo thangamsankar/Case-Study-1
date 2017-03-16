@@ -3,7 +3,8 @@ title: "Case Study 1"
 author: "Thangam Sankar"
 date: "March 11, 2017"
 output:
-  html_document: default
+  github_document:
+    html_preview: true
 ---
 # I. Introduction
 ## The following is an analysis of the GDP of 190 countries and the impact of income groups on GDP. It uses data sources from WorldBank downloaded from the following links:
@@ -94,7 +95,8 @@ print(Avg_Rank_nonOECD)
 
 **4. Generating reports...**
 
-+ **Distribution of GDP for all countries by Income Group**     
++ **Distribution of GDP for all countries by Income Group**  
++ https://raw.githubusercontent.com/thangamsankar/Case-Study-1/gh-pages/GDP%20Distribution.jpeg?_sm_au_=iHsQjFQ0JZD2rWfF
 ```{r echo=FALSE}
 ggplot(Merge_GDP_EDU_Sort, aes(y=GDP_Amount, x = Income.Group)) + scale_y_log10()+ geom_point(pch = 21, size = 6, fill = I("chocolate4"))
 ```
