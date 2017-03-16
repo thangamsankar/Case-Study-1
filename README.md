@@ -1,8 +1,12 @@
 # This repository contains the code for cleanup, analysis and reporting on GDP vs. Income groups information.
 # Here are the names of the files and their contents
-+  Data Import.R   - Contains code for downloading the spreadsheets from web and loading them into R data frames
-+  Data Cleanup.R  - Contains code for cleaning up the data and report on NA data
-+  Data Analysis.R - Merges the data in the 2 spreadsheets and provides the following metrics:
+
+  Data Import.R   - Contains code for downloading the spreadsheets from web and loading them into R data frames
+  
+  Data Cleanup.R  - Contains code for cleaning up the data and report on NA data
+  
+  Data Analysis.R - Merges the data in the 2 spreadsheets and provides the following metrics:
+  
 ++                   ID matches 
 ++                   Country with the 13th highest GDP
 ++                   Average GDP rankings for "High income: OECD" and "High income:nonOECD" groups
