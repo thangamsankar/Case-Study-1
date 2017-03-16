@@ -129,7 +129,7 @@ print(Avg_Rank_nonOECD)
 **4. Generating reports...**
 
 -   **Distribution of GDP for all countries by Income Group**
-    ![](Case_Study_1_files/figure-markdown_github/unnamed-chunk-10-1.png) <br>
+-   <https://raw.githubusercontent.com/thangamsankar/Case-Study-1/gh-pages/GDP%20Distribution.jpeg?_sm_au_=iHsQjFQ0JZD2rWfF> ![](Case_Study_1_files/figure-markdown_github/unnamed-chunk-10-1.png) <br>
 
 -   **Summary statistics of GDP by Income Groups**
 
