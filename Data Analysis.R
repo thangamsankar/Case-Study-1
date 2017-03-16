@@ -1,4 +1,4 @@
-#1. Merge
+#1. Merge GDP and EDU data on country code
 Merge_GDP_EDU <- merge(x=GDP_data, y=EDU_data, by.x="CountryCode", by.y="CountryCode")
 # Check for duplicates
 Duplicates <- Merge_GDP_EDU[duplicated(Merge_GDP_EDU, incomparables=FALSE, fromLast=FALSE),]

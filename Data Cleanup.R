@@ -1,3 +1,5 @@
+# Give meaningful names to columns
+# Convert GDP_Amount to a numeric value so that further calculations would not fail
 GDP_data <- GDP_data[, c(1,2,4,5)]
 colnames(GDP_data) <- c("CountryCode", "Ranking", "CountryName", "GDP_Amount")
 GDP_data$GDP_Amount <- as.numeric(gsub(",", "", GDP_data$GDP_Amount))
